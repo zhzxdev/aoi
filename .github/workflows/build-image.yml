@@ -5,7 +5,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: aoi-server
+  IMAGE_NAME: zhzxdev/aoi-server
 
 jobs:
   build:
