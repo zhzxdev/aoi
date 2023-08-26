@@ -2,6 +2,8 @@ name: Build docker images
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [build_image]
 
 env:
   REGISTRY: ghcr.io
